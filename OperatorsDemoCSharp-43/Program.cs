@@ -57,7 +57,7 @@
             bool result1 = a == 5 && b > 5; //&& AND - both need to be true for it to evaluate to true
             bool result2 = b > 10 || c > 20; //|| OR - only one thing needs to be true for it to evaluate to true
 
-            //Null coalesting operator
+            //Null coalescing operator
 
             int? possiblyNullValue = null;
             int notNullNumber = possiblyNullValue ?? 500;
